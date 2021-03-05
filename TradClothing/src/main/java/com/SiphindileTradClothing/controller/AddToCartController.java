@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.ResponseEntity;
 
 @RestController
-@RequestMapping("/Login")
+@RequestMapping("/addtocart")
 public class AddToCartController {
 
 }

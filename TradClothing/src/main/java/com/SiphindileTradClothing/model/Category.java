@@ -3,13 +3,13 @@ import javax.persistence.Id;
 
 public class Category {
 	@Id
-	long id;
+	long category_id;
 	String name;
 	public long getId() {
-		return id;
+		return category_id;
 	}
-	public void setId(long id) {
-		this.id = id;
+	public void setId(long category_id) {
+		this.category_id = category_id;
 	}
 	public String getName() {
 		return name;
