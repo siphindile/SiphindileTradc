@@ -12,8 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan
 @EnableAutoConfiguration
 @EntityScan("com.SiphindileTradClothing") // path of the entity model
-@EnableJpaRepositories("com.SiphindileTradClothing.control") // path of jpa repository 
-
+@EnableJpaRepositories("com.SiphindileTradClothing.control") // path of jpa repository
 @SpringBootApplication
 public class TradClothingApplication {
 
