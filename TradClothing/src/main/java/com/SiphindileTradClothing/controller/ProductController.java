@@ -23,16 +23,17 @@ public class ProductController {
 	@Autowired
 	ProductServices ProductServices;
 	
-	@RequestMapping("getAll")
+	@GetMapping("getAll")
 	public List<Products> getAllPRoducts(){
 		return ProductServices.getAllProducts();
 	}
-
+	
+/*
 @RequestMapping("getProductsByCategory")
 public List<Products> getProductsByCategory(@RequestBody HashMap<String,String> request){
 	String category_id = request.get("cat_id");		
 	return ProductServices.getProductsByCategory(category_id);
-}
+}*/
 
 
 
